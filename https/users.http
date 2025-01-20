@@ -1,0 +1,17 @@
+POST http://localhost:5000/users HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Bello",
+    "email": "bello2@email.com",
+    "password": "12345678"
+}
+
+###
+
+GET http://localhost:5000/users HTTP/1.1
+
+
+###
+
+GET http://localhost:5000/users/ae28a774-8540-4be6-aa08-9b156c7d330c HTTP/1.1
